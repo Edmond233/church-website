@@ -1,0 +1,81 @@
+     body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color:blue;
+        }
+        header {
+            background-color: #333;
+            color: yellow;
+            padding: 15px 0;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: .5s;
+        }
+        nav a:hover{
+            color: yellow;
+             box-shadow: 1px 3px 10px rgba(245, 241, 9, 0.918);
+             padding: 8px 10px;
+             border: 4px;
+
+        }
+
+        .container {
+            padding: 20px;
+        }
+        .services, .events, .contact, .donate{
+            background: yellow;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 1000px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px blue;
+
+        }
+        
+        
+        footer {
+            background: #333;
+            color: yellow;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+
+
+
+#logo{
+  width: 90px;
+  height: 100px;
+  border: 2px yellow solid;
+  border-right-color:orange ;
+  border-radius: 60px;
+  padding: 5px 10px;
+animation: rote .9s  alternate ;
+}
+
+
+@keyframes rote{
+from{
+     transform: rotate(0);
+}
+to{
+    transform: rotate(360deg);
+}
+
+
+}
+
+
+.box1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
